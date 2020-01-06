@@ -14,5 +14,6 @@ namespace BangazonAPI.Models
         public string Description { get; set; }
         public string Title { get; set; }
         public DateTime DateAdded { get; set; }
+        public ProductType ProductType { get; set; }
     }
 }

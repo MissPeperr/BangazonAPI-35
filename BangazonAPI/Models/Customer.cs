@@ -17,6 +17,6 @@ namespace BangazonAPI.Models
         public string State { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-
+        public List<Product> Products { get; set; }
     }
 }
